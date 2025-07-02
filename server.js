@@ -20,6 +20,6 @@ mongoose
     process.exit(1);
   });
 
-//Server Runiing Port Configuration
+//Server Runinig Port Configuration
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
